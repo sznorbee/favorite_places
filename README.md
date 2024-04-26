@@ -14,3 +14,18 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Should add your google api key in the vscode/launch.json file
+
+```
+"args": [
+    "--dart-define",
+    "GOOGLE_API_KEY=shoud add your google api key here",
+    ],
+```
+
+# Or to the run command in the terminal
+
+```
+flutter run --dart-define=GOOGLE_API_KEY=shoud add your google api key here
+```
